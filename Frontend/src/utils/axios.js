@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const api = axios.create({
-    baseURL: import.meta.env.VITE_API_URL || "https://eventsphere-backend-4lme.onrender.com/api",
+    baseURL: import.meta.env.VITE_API_URL || "https://eventsphere-backend-kx6y.onrender.com/api",
     headers: {
         'Content-Type': 'application/json',
     }
